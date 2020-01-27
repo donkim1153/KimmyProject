@@ -7,11 +7,6 @@ var guesses = 0;
 var isSunk = false; 
 
 while (isSunk == false) {
-	
-	alert = (message());
-	console.log("Breakpoint1");
-	console.log("Breakpoint2");
-	console.log("Breakpoint3");
     guess = prompt("Ready, Aim, FIRE! (Enter a number from 0-6)");
     if (guess < 0 || guess > 6) {
         alert("Enter a number from 0 - 6");
